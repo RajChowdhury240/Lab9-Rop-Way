@@ -45,23 +45,26 @@ I = 0xf7f40c88
 now we will find the keyword "did"
 
 ![image](https://github.com/user-attachments/assets/fa2f5343-2a4e-4915-94fa-cdd62d7815d8)
-did = 0xf7d99b73
+
+"did" = 0xf7d99b73
 
 now we need a space after did , so we will find space " "
 
 <img width="349" alt="image" src="https://github.com/user-attachments/assets/4f5f1fcf-f03f-4e62-9c86-31bdd90b21e7">
 
-space = 0xf7d842d0
+"space" = 0xf7d842d0
 
 now lets find "it" keyword
 
 <img width="385" alt="image" src="https://github.com/user-attachments/assets/9a9e62ef-6557-45fc-879c-fb3cc98ed8b3">
-so it = 0xf7d9759c
+
+so "it" = 0xf7d9759c
 
 now we need the last char "!"
 
 <img width="343" alt="image" src="https://github.com/user-attachments/assets/892c1129-f2c8-4be3-8a86-c9349ea98cb6">
-so ! = 0xf7d845af
+
+so "!" = 0xf7d845af
 
 so we have all the addresses of our keywords
 
@@ -77,7 +80,7 @@ meaning we have to search for "%s%s%s%s%s\n" , lets do it , that would be our fo
 
 <img width="1032" alt="image" src="https://github.com/user-attachments/assets/16575d6b-3b27-4231-8a28-6d1a78b01644">
 
-%s%s%s%s%s\n = 0xf7f50d21
+"%s%s%s%s%s\n" = 0xf7f50d21
 
 now lets write the exploit
 
@@ -119,4 +122,6 @@ lets run it against the binary by
 ```bash
 ./lab9 $(python3 solve.py)
 ```
+
+
 ![image](https://github.com/user-attachments/assets/61b967b0-0de9-4d38-ba9b-b5453d05caa5)
